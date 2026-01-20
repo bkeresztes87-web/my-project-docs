@@ -11,9 +11,6 @@ Főoldal content
 > [!WARNING]
 > Ez egy sárga figyelmeztetés. Vigyázz, itt elronthatsz valamit!
 
-> [!ERROR]
-> Ez egy piros doboz. Kritikus hibák vagy veszélyek jelzésére.
-
 > [!DANGER]
 > Ez egy piros doboz. Kritikus hibák vagy veszélyek jelzésére.
 
