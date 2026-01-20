@@ -19,7 +19,19 @@
         noData: 'Nincs találat!',
         depth: 6,
         paths: 'auto'
+      },
+      plugins: [
+      function(hook, vm) {
+        hook.beforeEach(function(html) {
+          // A te felhasználóneved és repo neved alapján:
+          var url = 'https://github.com/bkeresztes87-web/my-project-docs/blob/main/docs/' + vm.route.file;
+          
+          var editHtml = '[📝 Szerkesztés GitHubon](' + url + ')\n\n';
+
+          return editHtml + html;
+        });
       }
+    ]
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
