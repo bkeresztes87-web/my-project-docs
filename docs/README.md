@@ -16,6 +16,10 @@ Főoldal content
 
 
 Verzió: [!badge variant="success" text="v1.0.0"]
+
 Állapot: [!badge variant="warning" text="fejlesztés alatt"]
+
 Fontosság: [!badge variant="danger" text="kritikus"]
+
 Típus: [!badge variant="info" text="API"]
+
