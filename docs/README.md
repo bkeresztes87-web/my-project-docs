@@ -4,7 +4,6 @@ Főoldal content
 > [!TIP]
 > Ez egy zöld tipp doboz. Ideális "Hogyan csináld" tanácsokhoz.
 
-
 > [!NOTE]
 > Ez egy kék információs doboz. Használd fontos tippekhez!
 
@@ -17,5 +16,5 @@ Főoldal content
 
 [token:#ff5733:FONTOS]
 
-[token:blue:INFO]
+[token:info:INFO]
 
