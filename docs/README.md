@@ -15,11 +15,7 @@ Főoldal content
 > Ez egy piros doboz. Kritikus hibák vagy veszélyek jelzésére.
 
 
-Verzió: [!badge variant="success" text="v1.0.0"]
+[token:#ff5733:FONTOS]
 
-Állapot: [!badge variant="warning" text="fejlesztés alatt"]
-
-Fontosság: [!badge variant="danger" text="kritikus"]
-
-Típus: [!badge variant="info" text="API"]
+[token:blue:INFO]
 
