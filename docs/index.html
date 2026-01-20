@@ -7,20 +7,6 @@
 </head>
 <body>
   <div id="app">Betöltés...</div>
-  <style>
-  /* Egyedi token stílusok */
-  .token {
-    padding: 2px 8px;
-    border-radius: 12px;
-    font-size: 0.85em;
-    font-weight: bold;
-    color: white;
-  }
-  .token-green  { background-color: #28a745; }
-  .token-blue   { background-color: #007bff; }
-  .token-yellow { background-color: #ffc107; color: #333; }
-  .token-red    { background-color: #dc3545; }
-</style>
   <script>
     window.$docsify = {
       name: 'Projekt Neve',
@@ -42,7 +28,7 @@
           
           var editHtml = '[📝 Szerkesztés GitHubon](' + url + ')\n\n';
 
-          return editHtml + html.replace(/\[ok\]/g, '<span style="color: green;">✔</span>');
+          return editHtml + html;
         });
       }
     ],
@@ -54,5 +40,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <script src="https://unpkg.com/docsify-badges/dist/index.min.js"></script>
 </body>
 </html>
