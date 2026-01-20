@@ -13,6 +13,7 @@
         font-size: 12px;
         font-weight: bold;
         color: white;
+        line-height: 1;
     }
   </style>
 </head>
@@ -41,7 +42,11 @@
           var editHtml = '[📝 Szerkesztés GitHubon](' + url + ')\n\n';
 
           html = html.replace(/\[token:(.*?):(.*?)\]/g, function(match, color, text) {
-            if(color == 'info') color = '#17a2b8';
+            if(color == 'blue') color = '#337AB7';
+            if(color == 'red') color = '#D3455B';
+            if(color == 'yellow') color = '#F7C325';
+            if(color == 'green') color = '#1AAE9F';
+            if(color == 'gray') color = '#707070';
             return '<span class="token" style="background-color: ' + color + ';">' + text + '</span>';
           });
           
